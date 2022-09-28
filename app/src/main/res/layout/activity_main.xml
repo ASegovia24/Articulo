@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/txt_encabezado"
-        android:background="#144FEA"
+        android:background="#FF0059"
         android:fontFamily="sans-serif-medium"
         android:gravity="center_vertical"
         android:paddingStart="15sp"
@@ -25,14 +25,14 @@
         android:id="@+id/txt_encabezado"
         android:layout_width="match_parent"
         android:layout_height="61dp"
-        android:background="#03247A"
+        android:background="#00083C"
         android:fontFamily="sans-serif-black"
         android:gravity="center_vertical"
         android:paddingStart="15sp"
         android:paddingEnd="15sp"
         android:text="@string/encabezado1"
         android:textAllCaps="false"
-        android:textColor="@color/white"
+        android:textColor="#FF0059"
         android:textSize="34sp" />
 
     <TextView
