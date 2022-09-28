@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txt_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_encabezado"
+        android:background="#144FEA"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center_vertical"
+        android:paddingStart="15sp"
+        android:paddingEnd="15sp"
+        android:text="@string/titulo1"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/txt_encabezado"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:background="#03247A"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center_vertical"
+        android:paddingStart="15sp"
+        android:paddingEnd="15sp"
+        android:text="@string/encabezado1"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/txt_Articulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_titulo"
+        android:paddingStart="15sp"
+        android:paddingTop="5sp"
+        android:paddingEnd="15sp"
+        android:paddingBottom="5sp"
+        android:text="@string/TextArticulo1" />
+
+</RelativeLayout>
